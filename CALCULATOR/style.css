@@ -1,0 +1,119 @@
+/* General body styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #3615edd8;
+    font-family: Arial, sans-serif;
+}
+
+/* Calculator container */
+#calculator {
+    background-color: #c4d5e6;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    border: none;
+    display: grid;
+}
+
+/* Display input field */
+#display {
+    width: 100%;
+    height: 60px;
+    background-color: #34495e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: right;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* Button grid container */
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* General button styling */
+button {
+    background-color: #4a6a8d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #11345a;
+}
+
+/* Active effect for buttons */
+button:active {
+    background-color: #dc6d1d;
+}
+
+/* Operator buttons */
+.operator-btn {
+    background-color: #e67e22;
+}
+
+.operator-btn:hover {
+    background-color: #d35400;
+}
+
+.operator-btn:active {
+    background-color: #a84300;
+}
+
+/* Equals button */
+.equals-btn {
+    background-color: #27ae60;
+    grid-column: span 2;
+}
+
+.equals-btn:hover {
+    background-color: #728b7d;
+}
+
+.equals-btn:active {
+    background-color: #1a7a43;
+}
+
+/* Clear button */
+.clear-btn {
+    background-color: #e74c3c;
+}
+
+.clear-btn:hover {
+    background-color: #c0392b;
+}
+
+.clear-btn:active {
+    background-color: #a93226;
+}
+
+/* Delete button */
+.delete-btn {
+    background-color: #f39c12;
+}
+
+.delete-btn:hover {
+    background-color: #e0dad5;
+}
+
+.delete-btn:active {
+    background-color: #7b6d64;
+}
